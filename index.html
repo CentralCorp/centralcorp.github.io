@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>CentralCorp Launcher Documentation</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/obsidian.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">CentralCorp Launcher Documentation</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#1-mise-en-place-environnement" class="nav-link">1. Mise en place - Environnement</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#etape-1-telechargement-des-logiciels" class="nav-link">Étape 1 : Téléchargement des logiciels</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#etape-2-mise-en-place-github" class="nav-link">Étape 2 : Mise en place - GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#etape-3-configuration-globale" class="nav-link">Étape 3 : Configuration globale</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#etape-4-mise-en-place-du-panel-1" class="nav-link">Étape 4 : Mise en place du panel - 1</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#2-mise-en-place-du-panel-sur-un-serveur-web" class="nav-link">2. Mise en place du panel sur un serveur web</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#5-configuration-launcher-depuis-le-panel-de-gestion" class="nav-link">5. Configuration launcher depuis le Panel de gestion</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#1-configuration" class="nav-link">1. Configuration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#1-hebergement-des-fichiers" class="nav-link">1. Hébergement des fichiers</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#6-compilation-du-launcher" class="nav-link">6. Compilation du launcher</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="1-mise-en-place-environnement">1. Mise en place - Environnement</h1>
+<h2 id="etape-1-telechargement-des-logiciels">Étape 1 : Téléchargement des logiciels</h2>
+<ol>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+<li><a href="https://github.com/apps/desktop">GitHub Desktop</a></li>
+<li><a href="https://git-scm.com/downloads">Git</a></li>
+<li><a href="https://nodejs.org/fr">Node.js</a></li>
+</ol>
+<blockquote>
+<p>⚠️ <strong>Une fois tous les logiciels installés, redémarrez votre ordinateur.</strong> ⚠️</p>
+</blockquote>
+<h2 id="etape-2-mise-en-place-github">Étape 2 : Mise en place - GitHub</h2>
+<blockquote>
+<p>Tout d'abord, il va falloir forker le projet en se rendant <a href="https://github.com/Riptiaz/CentralCorp-Launcher/fork">ici</a> après avoir préalablement créé un projet vierge. <strong>Votre fork devra être public.</strong></p>
+</blockquote>
+<ol>
+<li>
+<p>Créez ensuite un dossier vide à l'emplacement de votre choix sur votre PC.</p>
+</li>
+<li>
+<p>Ouvrez GitHub Desktop et clonez votre repository fork.</p>
+</li>
+<li>
+<p>Il vous faudra ensuite vous rendre dans "File" (en haut à gauche du logiciel), puis dans "Clone Repository" (voir Premier Screenshot).</p>
+</li>
+<li>
+<p>Choisissez ensuite le dossier que vous venez de créer, et sélectionnez dans le menu déroulant au-dessus votre projet que vous avez forké avec le CentralCorp Launcher. Le clonage commencera alors.</p>
+</li>
+</ol>
+<h2 id="etape-3-configuration-globale">Étape 3 : Configuration globale</h2>
+<p>Une fois le clonage terminé, sélectionnez <strong>"Open in Visual Studio Code"</strong>, ce qui ouvrira le dossier contenant la base du launcher.</p>
+<p>Vous allez maintenant vous rendre dans le fichier <code>package.json</code> et configurer les éléments suivants :</p>
+<ul>
+<li><strong>name</strong> : Le nom de votre launcher</li>
+<li><strong>productName</strong> : Le nom qui sera affiché sur le raccourci du bureau et dans le gestionnaire d'applications</li>
+<li><strong>version</strong> : La version de votre launcher (PAS votre version de Minecraft)*</li>
+<li><strong>description</strong> : La description qui sera notamment affichée en passant la souris sur le raccourci</li>
+<li><strong>author</strong> : Votre pseudonyme (Merci de laisser également Luuxius/Riptiaz pour les crédits :heart: (supprimer = ban))</li>
+<li><strong>settings</strong> : Le lien vers votre panel</li>
+</ul>
+<p>Une fois cela fait, ouvrez un terminal dans votre éditeur de code et tapez la commande :</p>
+<p><code>npm install</code></p>
+<blockquote>
+<p><strong>La version ne doit pas être choisie au hasard. Elle sera utilisée pour la compilation du launcher. Rendez-vous à la partie 4 pour plus d'informations.</strong></p>
+</blockquote>
+<h2 id="etape-4-mise-en-place-du-panel-1">Étape 4 : Mise en place du panel - 1</h2>
+<h3 id="1-telechargement-des-fichiers-necessaires">1. Téléchargement des fichiers nécessaires</h3>
+<p>Tout d'abord, vous avez deux options :</p>
+<h3 id="option-1">Option 1</h3>
+<ol>
+<li>Rendez-vous sur <a href="https://github.com/Riptiaz/CentralCorp-Panel">ce lien</a> et cliquez sur le gros bouton vert <strong>"Code"</strong>, puis sur <strong>"Download ZIP"</strong>.</li>
+<li>Extrayez ensuite l'archive sur votre bureau ou dans un dossier de votre choix.</li>
+</ol>
+<p>Et c'est tout pour cette partie ! <em>(Eh oui, c'était rapide :p)</em></p>
+<h3 id="option-2">Option 2</h3>
+<p>Téléchargez le fichier <code>Panel.zip</code> fourni dans ce tutoriel (plus rapide).</p>
+<h2 id="2-mise-en-place-du-panel-sur-un-serveur-web">2. Mise en place du panel sur un serveur web</h2>
+<blockquote>
+<h3 id="ce-quil-vous-faudra-pour-continuer">Ce qu'il vous faudra pour continuer :</h3>
+<ul>
+<li>Un serveur web fonctionnel sous PHP (parfois payant).</li>
+<li>Une base de données vierge (obligatoire).</li>
+</ul>
+</blockquote>
+<p>Si vous n'avez pas d'hébergement, vous pouvez utiliser celui-ci : <strong><a href="https://hwhost.fr/">https://hwhost.fr/</a></strong>, qui est normalement compatible et fournit tout ce dont le panel a besoin, avec un abonnement Gratuit.</p>
+<h3 id="etapes-a-suivre">Étapes à suivre :</h3>
+<ol>
+<li>
+<p>Connectez-vous au serveur FTP/SFTP de votre serveur web et téléchargez-y tous les fichiers du panel que vous avez précédemment téléchargés.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<ul>
+<li>Vous ne pourrez pas accéder au panel si vous l'hébergez sur le même serveur que votre site Azuriom. Il vous faudra obligatoirement un sous-domaine ou un autre hébergement.</li>
+<li>Certains hébergeurs proposent un web FTP. Dans ce cas, uploadez les fichiers dans le dossier <code>httpdocs</code>.</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<p>Une fois tous les fichiers du panel uploadés sur votre serveur FTP/SFTP, vous pouvez accéder à votre panel à l'adresse de votre serveur web.</p>
+</li>
+<li>
+<p>Configurez ensuite la page qui apparaît avec les identifiants de votre base de données.</p>
+</li>
+<li>
+<p>Une fois la base de données renseignée, et si celle-ci est bien vide, vous pourrez créer un compte. <strong>Ne perdez pas vos identifiants</strong>, ce sont les seuls qui vous permettront d'accéder au panel.</p>
+</li>
+</ol>
+<h1 id="5-configuration-launcher-depuis-le-panel-de-gestion">5. Configuration launcher depuis le Panel de gestion</h1>
+<h2 id="1-configuration">1. Configuration</h2>
+<blockquote>
+<p>Avant de commencer ce tutoriel, nous partons du principe que vous avez suivi et complété correctement le tutoriel sur la mise en place du panel.</p>
+</blockquote>
+<p>Il va donc falloir que vous vous rendiez sur votre panel et que vous vous y connectiez si cela n'est pas déjà fait. Ensuite, le fonctionnement est assez simple :</p>
+<h3 id="il-existe-3-types-de-configuration">Il existe 3 types de configuration :</h3>
+<ol>
+<li>
+<p><strong>Les configurations dites "textuelles"</strong> : Vous devrez écrire ou coller un texte qui sera ensuite retranscrit dans le launcher.</p>
+</li>
+<li>
+<p><strong>Les configurations dites "sélectives"</strong> : Vous pouvez cocher ou décocher les options disponibles.</p>
+</li>
+<li>
+<p><strong>Les configurations dites "déroulantes"</strong> : Un menu déroulant vous permettra de choisir parmi les options disponibles.</p>
+</li>
+</ol>
+<p>Nous n'allons pas vous présenter toutes les options disponibles sur le panel, car elles ne seraient jamais à jour étant donné que nous mettons régulièrement le panel à jour. Cependant, je vais vous présenter les plus importantes.</p>
+<h3 id="configuration-des-options-principales">Configuration des options principales</h3>
+<ol>
+<li><strong>URL du site Azuriom</strong> :</li>
+<li>Rendez-vous dans la section "URL du site Azuriom" et indiquez l'URL de votre site, sans ajouter de "/" à la fin (sinon cela ne fonctionnera pas).</li>
+</ol>
+<blockquote>
+<p><em>exemple : 'https://conflictura.eu' et non 'https://conflictura.eu/</em></p>
+</blockquote>
+<ol>
+<li><strong>Type de loader</strong> :</li>
+<li>Sélectionnez le loader que vous souhaitez utiliser. Dans cet exemple, nous choisirons Forge, car il est le plus répandu. Rendez-vous sur le site de <a href="https://files.minecraftforge.net/net/minecraftforge/forge/">Forge</a>, sélectionnez votre version et copiez la version de build que vous souhaitez. Cela correspond à la suite de caractères commençant par la version de Minecraft, par exemple <code>1.20.1 - 47.1.44</code>.</li>
+</ol>
+<h2 id="1-hebergement-des-fichiers">1. Hébergement des fichiers</h2>
+<p>Comme un launcher custom sert très souvent à faire télécharger vos fichiers à d'autres personnes (mods, configurations, etc.), il est nécessaire de configurer et renseigner le lien de vos fichiers dans le launcher.</p>
+<h3 id="etapes-a-suivre_1">Étapes à suivre :</h3>
+<ol>
+<li>Accédez au dossier de votre panel, puis allez dans le dossier <strong>"data"</strong>.</li>
+<li>Créez un dossier nommé <code>files</code>.</li>
+<li>Glissez-y tous vos fichiers en les organisant de la même manière que dans votre répertoire de jeu (par exemple, les mods dans un dossier nommé <code>mods</code>, les configurations dans un dossier nommé <code>config</code>, etc.).</li>
+</ol>
+<p>Vous pourrez modifier tous les fichiers de votre jeu depuis ce répertoire, et ces modifications seront automatiquement téléchargées par tous vos joueurs.</p>
+<h1 id="6-compilation-du-launcher">6. Compilation du launcher</h1>
+<p>Nous y sommes ! Vous allez enfin obtenir votre launcher au format <code>.exe</code> à fournir à tous vos joueurs. Mais avant cela, voici les étapes à suivre :</p>
+<h3 id="1-configurer-le-fichier-packagejson">1. Configurer le fichier <code>package.json</code> :</h3>
+<ul>
+<li>Retournez dans Visual Studio Code et ouvrez le fichier <code>package.json</code>.</li>
+<li>Allez tout en bas, dans la ligne <code>"url"</code> sous <code>"repository"</code>.</li>
+<li>Après <code>git+</code>, collez le lien de votre projet. <strong>Cette étape est importante.</strong></li>
+<li>Gardez en tête la version que vous avez renseignée plus haut.</li>
+</ul>
+<h3 id="2-creer-une-nouvelle-version-sur-github">2. Créer une nouvelle version sur GitHub :</h3>
+<ul>
+<li>Rendez-vous sur GitHub, dans l'onglet <strong>"Releases"</strong>, et cliquez sur <strong>"Draft a new release"</strong>.</li>
+<li>Dans <strong>"Choose a tag"</strong>, notez <strong>EXACTEMENT</strong> ce qui est écrit sur la ligne version, puis cliquez sur <strong>"Create new tag"</strong>.</li>
+<li>Renseignez les autres champs comme vous le souhaitez, puis cliquez sur <strong>"Save draft"</strong>.</li>
+</ul>
+<h3 id="3-modifier-les-parametres-du-projet">3. Modifier les paramètres du projet :</h3>
+<ul>
+<li>Allez dans les paramètres de votre projet sur GitHub, puis dans <strong>"Actions" &gt; "General"</strong>.</li>
+<li>Faites défiler jusqu'à <strong>"Workflow permissions"</strong>, réglez la valeur sur le premier point, et enregistrez.</li>
+</ul>
+<h3 id="4-mettre-a-jour-et-pousser-les-changements">4. Mettre à jour et pousser les changements :</h3>
+<ul>
+<li>Ouvrez un terminal dans votre éditeur de code et tapez <code>npm i</code> pour mettre à jour toutes les dépendances.</li>
+<li>Ensuite, ouvrez GitHub Desktop. Vous devriez voir une interface similaire à celle du screenshot n°1.</li>
+<li>Écrivez quelque chose dans <strong>"Summary"</strong>, puis cliquez sur <strong>"Commit to master"</strong>.</li>
+<li>Cliquez sur le bouton bleu <strong>"Push origin"</strong> au centre de l'écran.</li>
+</ul>
+<h3 id="5-verifier-le-processus-de-compilation">5. Vérifier le processus de compilation :</h3>
+<ul>
+<li>Rendez-vous sur votre projet GitHub, puis dans <strong>"Actions"</strong>. Vous devriez voir un point orange clignotant.</li>
+<li>Si tout se passe bien, après quelques minutes, vous pourrez récupérer votre launcher dans tous les formats exécutables.</li>
+</ul>
+<hr />
+<p><strong>Félicitations !</strong> Vous avez réussi à obtenir un launcher grâce à CentralCorp Launcher. N'hésitez pas à nous le faire savoir !</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.0
+Build Date UTC : 2024-08-27 16:06:54.964139+00:00
+-->
