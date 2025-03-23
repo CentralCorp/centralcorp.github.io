@@ -34,7 +34,7 @@ Voici les éléments à configurer :
         - Sera utilisée pour la compilation
         - Doit suivre le format semver (X.Y.Z)
     !!! danger "Attention"
-        - Ne supprimez pas les crédits Luuxius/Riptiaz ajouté juste votre nom ❤️
+        - Ne supprimez pas les crédits luuxis/Riptiaz ajouté juste votre nom ❤️
         - La suppression des crédits originaux entraînera un bannissement.
 
 
@@ -49,7 +49,29 @@ Voici les éléments à configurer :
         - "panel" si vous utilisez le panel
         - "azuriom" si vous utilisez le plugin Azuriom (Payant)
 
-  
+
+=== "Paramètres Github"
+    ```json
+    {
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        }
+    }
+    ``` 
+    !!! info "Votre URL"
+        Vous devez remplacer l'URL du GitHub ORIGINAL par celle de votre FORK DU PROJET 
+        
+        **Exemple :**  
+        ```json
+        {
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/monpseudo/monserveur-Launcher.git"
+            }
+        }
+        ```
+        !!! warning "Cela est obligatoire pour la compilation et l'auto-update"
     
 ## Installation des Dépendances 📦
 

@@ -33,7 +33,7 @@ Here are the elements to configure:
         - Will be used for compilation
         - Must follow semver format (X.Y.Z)
     !!! danger "Attention"
-        - Do not remove the Luuxius/Riptiaz credits, just add your name ❤️
+        - Do not remove the luuxis/Riptiaz credits, just add your name ❤️
         - Removing original credits will result in a ban.
 
 
@@ -49,6 +49,29 @@ Here are the elements to configure:
         - "azuriom" if you use the Azuriom plugin (Paid)
   
     
+=== "Github Settings"
+    ```json
+    {
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        }
+    }
+    ``` 
+    !!! info "Your URL"
+        You need to replace the ORIGINAL GitHub URL with your FORK OF THE PROJECT 
+
+        **Example :**  
+        ```json
+        {
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/myusername/myserver-Launcher.git"
+            }
+        }
+        ```
+        !!! warning "This is required for compilation and auto-update"
+
 ## Installing Dependencies 📦
 
 Open a terminal in VS Code and run:
