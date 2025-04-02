@@ -24,7 +24,7 @@
     
     Need help? Contact us!
 
-    [:octicons-arrow-right-24: Help](https://discord.gg/centralcorp)
+    [:octicons-arrow-right-24: Help](https://discord.gg/VCmNXHvf77)
 
 </div>
 

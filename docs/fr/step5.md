@@ -86,7 +86,7 @@ En cas de difficultés :
 
     ---
 
-    Rejoignez notre [serveur Discord](https://discord.gg/Bnpw2awVRV) pour une assistance en temps réel
+    Rejoignez notre [serveur Discord](https://discord.gg/VCmNXHvf77) pour une assistance en temps réel
 
 </div>
 

@@ -48,6 +48,6 @@ Une fois le clonage terminé, vous aurez une copie locale du projet sur votre ma
     Si vous rencontrez des problèmes, n'hésitez pas à :
     
     - Vérifier les [issues GitHub](https://github.com/Riptiaz/CentralCorp-Launcher/issues)
-    - Rejoindre notre [Discord](https://discord.gg/centralcorp)
+    - Rejoindre notre [Discord](https://discord.gg/VCmNXHvf77)
 
 [:octicons-arrow-right-24: Passer à l'étape suivante](){ .md-button .md-button--primary }

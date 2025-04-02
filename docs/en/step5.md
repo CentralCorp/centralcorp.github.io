@@ -86,7 +86,7 @@ If you encounter any difficulties:
 
     ---
 
-    Join our [Discord server](https://discord.gg/Bnpw2awVRV) for real-time assistance
+    Join our [Discord server](https://discord.gg/VCmNXHvf77) for real-time assistance
 
 </div>
 

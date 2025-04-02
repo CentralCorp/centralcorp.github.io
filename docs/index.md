@@ -1,4 +1,4 @@
-# Acceuil / Home
+# Accueil / Home
 
 <div class="grid cards" markdown>
 
@@ -22,10 +22,10 @@
 
     ---
     
-    liste de tout les liens
-    list of all link
+    Liste de tous les liens
+    List of all links
 
-    [:octicons-arrow-right-24: Acceder / acces](liens.md)
+    [:octicons-arrow-right-24: Accéder / Access](liens.md)
 
 </div>
 

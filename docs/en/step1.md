@@ -47,6 +47,6 @@ Once cloning is complete, you will have a local copy of the project on your mach
     If you encounter any issues, feel free to:
     
     - Check the [GitHub issues](https://github.com/Riptiaz/CentralCorp-Launcher/issues)
-    - Join our [Discord](https://discord.gg/centralcorp)
+    - Join our [Discord](https://discord.gg/VCmNXHvf77)
 
 [:octicons-arrow-right-24: Proceed to next step](){ .md-button .md-button--primary } 
