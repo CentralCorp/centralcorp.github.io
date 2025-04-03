@@ -1,10 +1,11 @@
-site_name: CentralCorp Docs
+site_name: " "
 theme:
   name: material
+  logo: assets/img/logo.png
+  favicon: assets/img/logo.png
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.footer
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -42,22 +43,23 @@ plugins:
         fr: Français
       nav_translations:
         en:
-          - Home: index.md
-          - Prerequisites: prerequis.md
-          - Step 1 - GitHub Setup: step1.md
-          - Step 2 - Global Configuration: step2.md
-          - Step 3 - Panel Installation: step3.md
-          - Step 4 - Panel Configuration: step4.md
-          - Step 5 - Final Steps: step5.md
+          Home: index.md
+          Prerequisites: prerequis.md
+          Step 1 - GitHub Setup: step1.md
+          Step 2 - Global Configuration: step2.md
+          Step 3 - Panel Installation: step3.md
+          Step 4 - Panel Configuration: step4.md
+          Step 5 - Final Steps: step5.md
         fr:
-          - Accueil: index.md
-          - Prérequis: prerequis.md
-          - Étape 1 - Configuration GitHub: step1.md
-          - Étape 2 - Configuration Globale: step2.md
-          - Étape 3 - Installation du Panel: step3.md
-          - Étape 4 - Configuration du Panel: step4.md
-          - Étape 5 - Étapes Finales: step5.md
-      redirect_to: fr
+          Accueil: index.md
+          Prérequis: prerequis.md
+          Étape 1 - Configuration GitHub: step1.md
+          Étape 2 - Configuration Globale: step2.md
+          Étape 3 - Installation du Panel: step3.md
+          Étape 4 - Configuration du Panel: step4.md
+          Étape 5 - Étapes Finales: step5.md
+      docs_structure: folder
+
 
 # Extensions Markdown améliorées
 markdown_extensions:
@@ -88,3 +90,10 @@ markdown_extensions:
 plugins:
   - search
   - tags
+copyright: CentralCorp is not affiliated with Mojang or Azuriom.
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CentralCorp
+extra_javascript:
+  - assets/js/extra.js
