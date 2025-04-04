@@ -2,10 +2,9 @@ site_name: " "
 theme:
   name: material
   logo: assets/img/logo.png
-  favicon: assets/img/logo.png
   features:
-    - navigation.instant
     - navigation.tracking
+    - navigation.path
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -34,33 +33,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
   language: fr
-# Configuration multilingue
-plugins:
-  - i18n:
-      default_language: fr
-      languages:
-        en: English
-        fr: Français
-      nav_translations:
-        en:
-          Home: index.md
-          Prerequisites: prerequis.md
-          Step 1 - GitHub Setup: step1.md
-          Step 2 - Global Configuration: step2.md
-          Step 3 - Panel Installation: step3.md
-          Step 4 - Panel Configuration: step4.md
-          Step 5 - Final Steps: step5.md
-        fr:
-          Accueil: index.md
-          Prérequis: prerequis.md
-          Étape 1 - Configuration GitHub: step1.md
-          Étape 2 - Configuration Globale: step2.md
-          Étape 3 - Installation du Panel: step3.md
-          Étape 4 - Configuration du Panel: step4.md
-          Étape 5 - Étapes Finales: step5.md
-      docs_structure: folder
-
-
 # Extensions Markdown améliorées
 markdown_extensions:
   - pymdownx.superfences:
@@ -91,9 +63,19 @@ plugins:
   - search
   - tags
 copyright: CentralCorp is not affiliated with Mojang or Azuriom.
+
 extra:
+  alternate:
+    - name: 🇬🇧 English
+      link: /en/ 
+      lang: en
+    - name: 🇫🇷 Français
+      link: /fr/
+      lang: fr
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/CentralCorp
+extra_css:
+  - assets/css/extra.css
 extra_javascript:
   - assets/js/extra.js

@@ -83,4 +83,4 @@ npm install
 !!! success "Verification"
     The installation is successful if you don't see any errors in the terminal. Otherwise, check your Node.js installation.
 
-[:octicons-arrow-right-24: Proceed to next step](){ .md-button .md-button--primary } 
+You can move on to the next step.

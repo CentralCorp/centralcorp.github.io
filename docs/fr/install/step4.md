@@ -94,4 +94,4 @@ Vérifiez les autres paramètres/catégories du panel afin de le configurer comp
 
     ```
 
-[:octicons-arrow-right-24: Passer à l'étape suivante](){ .md-button .md-button--primary }
+Vous pouvez passer à la prochaine étape.

@@ -86,4 +86,4 @@ npm install
 
 
 
-[:octicons-arrow-right-24: Passer à l'étape suivante](){ .md-button .md-button--primary }
+Vous pouvez passer à la prochaine étape.

@@ -86,4 +86,4 @@ Check other panel parameters/categories to configure it completely and get the m
 !!! success "Automatic Synchronization"
     All files placed in these directories will be automatically downloaded by your players when launching.
 
-[:octicons-arrow-right-24: Proceed to next step](){ .md-button .md-button--primary } 
+You can move on to the next step.

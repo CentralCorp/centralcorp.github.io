@@ -59,4 +59,4 @@
 !!! success "Installation Complete"
     Your panel is now ready to use! 🎉
 
-[:octicons-arrow-right-24: Proceed to next step](){ .md-button .md-button--primary } 
+You can move on to the next step.
