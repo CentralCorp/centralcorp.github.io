@@ -31,7 +31,7 @@ Avant de continuer, assurez-vous d'avoir :
 Connectez-vous à votre serveur FTP/SFTP ou web filemanager et transférez l'installer.zip et extrayez le fichier.
 
 ::: warning ⚠️ Important
-- N'hébergez **PAS** le panel sur le même serveur qu'Azuriom
+- N'hébergez **PAS** le panel sur le même serveur qu'Azuriom SAUF si vous utilisez [le plugin Azuriom](https://market.azuriom.com/resources/163)
 - Utilisez un sous-domaine ou un hébergement séparé
 :::
 

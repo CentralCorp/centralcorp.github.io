@@ -3,3 +3,4 @@
 /.vitepress/dist
 .DS_Store
 .env
+.idea

@@ -50,7 +50,7 @@ La suppression des crédits originaux entraînera un bannissement.
 
 ::: info 💡 Type d'environnement
 - `"panel"` si vous utilisez le panel
-- `"azuriom"` si vous utilisez le plugin Azuriom (Payant)
+- `"azuriom"` si vous utilisez [le plugin Azuriom](https://market.azuriom.com/resources/163) (Payant)
 :::
 
 ### Paramètres GitHub

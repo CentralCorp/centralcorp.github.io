@@ -50,7 +50,7 @@ Removing original credits will result in a ban.
 
 ::: info 💡 Environment Type
 - `"panel"` if you use the panel
-- `"azuriom"` if you use the Azuriom plugin (Paid)
+- `"azuriom"` if you use [the Azuriom plugin](https://market.azuriom.com/resources/163) (Paid)
 :::
 
 ### GitHub Parameters

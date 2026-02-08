@@ -52,3 +52,7 @@ Keep them safe!
 ::: tip ✅ Installation Complete
 Your panel is now ready to use! 🎉
 :::
+
+::: tip ✅ Installation Complete
+Your panel is now ready to use! 🎉
+:::
