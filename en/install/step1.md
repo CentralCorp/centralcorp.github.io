@@ -1,3 +1,8 @@
+---
+title: Fork the CentralCorp Launcher source code
+description: Fork and clone the CentralCorp Minecraft launcher source code, then prepare your local project configuration.
+---
+
 # Step 1: GitHub Configuration
 
 ::: info 🎯 Objective
@@ -6,8 +11,8 @@ In this step, we will fork the CentralCorp Launcher project and clone it to your
 
 ## 1. Fork the Project 🔄
 
-::: danger ⚠️ Important
-Your fork **must be public** to respect our work and the project authors. The source code must remain open source.
+::: danger ⚠️ License
+The launcher is published under CC BY-NC 4.0. Keep attribution, identify your changes and review the commercial-use restriction before sharing your version. “Open source” is not a precise description of this non-commercial license.
 :::
 
 ### Instructions
@@ -50,6 +55,8 @@ Make sure you have [Git](https://git-scm.com/) installed on your machine before 
 ## Next Steps 🎯
 
 Once cloning is complete, you will have a local copy of the project on your machine. 🚀
+
+Next, [configure your Minecraft launcher](/en/install/step2). For the full architecture, read about the [Minecraft Launcher Panel](/en/minecraft-launcher-panel).
 
 ::: info ❓ Need help?
 If you encounter any issues, feel free to:

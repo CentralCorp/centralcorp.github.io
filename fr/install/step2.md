@@ -1,3 +1,8 @@
+---
+title: Configurer CentralCorp Minecraft Launcher
+description: Configurez le nom, la version, le panel web, Azuriom et le repository de votre launcher Minecraft CentralCorp.
+---
+
 # Étape 2 : Configuration Globale
 
 ::: info 🎯 Objectif
@@ -20,7 +25,7 @@ Localisez et ouvrez le fichier `package.json` dans votre éditeur.
 ```json
 {
   "name": "votre-launcher",          // Nom technique du launcher
-  "productName": "Mon Launcher",     // Nom affiché sur le bureau
+  "preductname": "Mon Launcher",     // Clé actuellement lue par le script de build
   "version": "1.0.0",                // Version de votre launcher
   "description": "Description...",   // Description au survol
   "author": "Votre-Pseudo, Riptiaz/Boulldogo/Vexato/Luuxis"
@@ -34,9 +39,8 @@ La version que vous définissez ici :
 - Doit suivre le format semver (X.Y.Z)
 :::
 
-::: danger ❌ Attention
-Ne supprimez pas les crédits luuxis/Riptiaz, ajoutez juste votre nom ❤️
-La suppression des crédits originaux entraînera un bannissement.
+::: danger ❌ Attribution
+Conservez les crédits existants et ajoutez votre nom sans retirer les auteurs d’origine, conformément à l’obligation d’attribution de la licence.
 :::
 
 ### Paramètres Serveur
@@ -79,3 +83,5 @@ npm install
 ::: tip ✅ Vérification
 L'installation est réussie si vous ne voyez pas d'erreurs dans le terminal. Sinon, vérifiez votre installation de Node.js.
 :::
+
+Une fois le launcher configuré, [installez le panel web CentralCorp](/fr/install/step3) qui lui fournira ses paramètres et ses fichiers.

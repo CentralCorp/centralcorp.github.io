@@ -1,3 +1,8 @@
+---
+title: Build and distribute CentralCorp Launcher
+description: Use the GitHub workflow to build and publish CentralCorp Minecraft Launcher for Windows, Linux and macOS.
+---
+
 # Step 5: Build and Distribution 🎉
 
 ::: info 🎯 Objective
@@ -39,9 +44,9 @@ GitHub Desktop → Commit → Push → Auto compilation ✨
 | System | Format | Description |
 |--------|--------|-------------|
 | Windows | `.exe` | Windows Installer |
-| Linux | `.deb` | Debian Package |
 | Linux | `.AppImage` | Portable Linux App |
 | macOS | `.dmg` | macOS Disk Image |
+| macOS | `.zip` | macOS application archive |
 
 ## 🆘 Support
 
@@ -58,6 +63,8 @@ Regularly check the compilation logs in the GitHub "Actions" tab to quickly iden
 ::: info 🎉 Congratulations!
 Your launcher is now ready for distribution. Thank you for following this guide!
 :::
+
+To manage its configuration after deployment, return to the [Minecraft Launcher Panel](/en/minecraft-launcher-panel).
 
 ---
 

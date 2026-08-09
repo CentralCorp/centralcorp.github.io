@@ -1,5 +1,7 @@
 ---
 layout: home
+title: CentralCorp language selection
+description: CentralCorp réunit un launcher Minecraft personnalisable, un panel web auto-hébergé, un installer et leur documentation.
 ---
 
 <script setup>
@@ -10,4 +12,6 @@ onMounted(() => {
 })
 </script>
 
-Redirecting to French version...
+# CentralCorp
+
+Redirection vers la [version française](/fr/). [Read the English version](/en/).

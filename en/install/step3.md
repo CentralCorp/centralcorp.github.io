@@ -1,3 +1,8 @@
+---
+title: Install CentralCorp web panel
+description: Deploy the CentralCorp Minecraft launcher panel with the installer, PHP 8.2 and a database on compatible hosting.
+---
+
 # Step 3: Panel Installation
 
 ::: info 🎯 Objective
@@ -37,11 +42,11 @@ Connect to your FTP/SFTP or web filemanager and upload the installer.zip file an
 
 **2. Continue the installation** 💾
 
-![Installer](/img/installer.png)
+![CentralCorp Installer checking panel hosting](/img/installer.png)
 
 **3. Administrator Account and Database Creation** 👤
 
-![Admin](/img/admincr.png)
+![Creating the CentralCorp Panel administrator account](/img/admincr.png)
 
 
 ::: danger ⚠️ Warning
@@ -53,6 +58,4 @@ Keep them safe!
 Your panel is now ready to use! 🎉
 :::
 
-::: tip ✅ Installation Complete
-Your panel is now ready to use! 🎉
-:::
+Continue with the [Minecraft launcher panel configuration](/en/install/step4), or read the full [Minecraft Launcher Panel overview](/en/minecraft-launcher-panel).

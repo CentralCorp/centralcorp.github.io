@@ -1,7 +1,7 @@
 {
     "name": "centralcorp-docs",
     "version": "1.0.0",
-    "description": "CentralCorp Launcher Documentation",
+    "description": "Official CentralCorp Minecraft Launcher website and documentation for the launcher, web panel and installer.",
     "scripts": {
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",

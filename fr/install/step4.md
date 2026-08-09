@@ -1,3 +1,8 @@
+---
+title: Configurer le panel launcher Minecraft CentralCorp
+description: Reliez le panel à Azuriom et gérez les fichiers, mods, configurations et ressources synchronisés par le launcher Minecraft.
+---
+
 # Étape 4 : Configuration du Panel
 
 ::: info 🎯 Prérequis
@@ -13,7 +18,7 @@ Assurez-vous d'avoir suivi et complété l'étape 3 concernant l'installation du
 ## 2. Configuration Principale 🎯
 
 ### URL du Site Azuriom
-![alt text](/img/config.png)
+![Configuration Azuriom du panel CentralCorp](/img/config.png)
 ::: warning ⚠️ Format Important
 L'URL doit être saisie **sans** slash final :
 - ✅ `https://votresite.fr`
@@ -27,7 +32,7 @@ L'Api Key est à récupérer sur votre site Azuriom dans le plugin `API-extender
 ### Via Panel
 
 Accédez au gestionnaire de fichiers du panel :
-![alt text](/img/fileman.png)
+![Gestionnaire de fichiers du panel CentralCorp pour launcher Minecraft](/img/fileman.png)
 
 ```plaintext
 /
@@ -53,8 +58,10 @@ Tous les fichiers placés dans ces répertoires seront automatiquement télécha
 
 ## Testons le launcher 🧪
 
-Une fois arrivé ici, vous pouvez essayer de lancer le launcher en local, exectuer dans le même terminal que l'étape 2 :
+Une fois arrivé ici, vous pouvez essayer de lancer le launcher en local. Exécutez dans le même terminal qu’à l’étape 2 :
 
 ```bash
 npm run dev
 ```
+
+Quand la configuration est validée, passez au [build et à la distribution du launcher](/fr/install/step5).

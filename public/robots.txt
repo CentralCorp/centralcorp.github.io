@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://centralcorp.github.io/sitemap.xml
