@@ -5,7 +5,7 @@ description: Découvrez ce que CentralCorp fournit sans abonnement logiciel, les
 
 # Créez gratuitement votre launcher Minecraft avec un panel web
 
-CentralCorp permet de télécharger le code du launcher Minecraft, du panel web et de l’installer sans abonnement logiciel récurrent à CentralCorp. Cette page précise ce que signifie **launcher Minecraft gratuit** dans ce projet, les dépenses qui restent possibles et les licences à respecter.
+Dans l’écosystème CentralCorp, CentralCorp Launcher, CentralCorp Panel et CentralCorp Installer peuvent être téléchargés sans abonnement logiciel récurrent à CentralCorp. Cette page précise ce que signifie **launcher Minecraft gratuit** dans ce projet, les dépenses qui restent possibles et les licences à respecter.
 
 [Commencer l’installation](/fr/install/prerequis) · [Découvrir le Minecraft Launcher Panel](/fr/minecraft-launcher-panel)
 

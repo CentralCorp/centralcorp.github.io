@@ -1,54 +1,73 @@
 ---
 layout: home
-title: Minecraft launcher with a self-hosted web panel
-description: Build, customize and manage a Minecraft launcher with the self-hosted CentralCorp web panel, Azuriom, Forge and Fabric.
+title: CentralCorp — Minecraft Launcher, Web Panel & Installer
+titleTemplate: false
+description: CentralCorp brings together a customizable Minecraft launcher, a self-hosted web panel, an installer and the documentation needed to manage your infrastructure.
 
 hero:
   name: CentralCorp
-  text: Minecraft launcher with a web panel
-  tagline: Build, customize and manage your Minecraft launcher from infrastructure you control.
-  image:
-    src: /img/logo.png
-    alt: CentralCorp Minecraft Launcher
+  text: Your launcher. Your panel. Your infrastructure.
+  tagline: Build, customize and manage your Minecraft launcher with a complete ecosystem you control.
   actions:
     - theme: brand
-      text: Use CentralCorp
+      text: Install CentralCorp
       link: /en/install/prerequis
     - theme: alt
-      text: Explore the panel
+      text: View the Launcher
+      link: /en/preview
+    - theme: alt
+      text: Explore the Panel
       link: /en/minecraft-launcher-panel
-    - theme: alt
-      text: View the launcher
-      link: https://github.com/CentralCorp/CentralCorp-Launcher
-    - theme: alt
-      text: CentralCorp on GitHub
-      link: https://github.com/CentralCorp
 
 features:
-  - icon: 🖥️
-    title: Custom Minecraft launcher
+  - title: CentralCorp Launcher
     details: Configure the interface, Minecraft version, memory, files and player launch experience.
     link: /en/preview
     linkText: View the launcher
-  - icon: ⚙️
-    title: Self-hosted web panel
+  - title: CentralCorp Panel
     details: Manage the launcher configuration from a web panel deployed on your own hosting.
     link: /en/minecraft-launcher-panel
     linkText: Explore the panel
-  - icon: 📦
-    title: Guided installation
+  - title: CentralCorp Installer
     details: Check requirements, install the panel, configure the launcher and build distributions.
     link: /en/install/prerequis
     linkText: Get started
+  - title: CentralCorp documentation
+    details: Follow the guides to prepare, configure, install and build every component in the ecosystem.
+    link: /en/install/step1
+    linkText: Read the guides
 ---
 
-## Build a custom Minecraft launcher
+## The CentralCorp ecosystem
+
+CentralCorp brings together four complementary components for building, deploying and managing a Minecraft launcher on infrastructure you control.
+
+<div class="ecosystem-grid">
+  <a class="ecosystem-card" href="/en/preview">
+    <img src="/img/image.png" alt="CentralCorp Launcher interface">
+    <span><strong>CentralCorp Launcher</strong><small>The desktop application used by players to synchronize files and start Minecraft.</small></span>
+  </a>
+  <a class="ecosystem-card" href="/en/minecraft-launcher-panel">
+    <img src="/img/config.png" alt="CentralCorp Panel configuration">
+    <span><strong>CentralCorp Panel</strong><small>The web component that centralizes and publishes the configuration consumed by the launcher.</small></span>
+  </a>
+  <a class="ecosystem-card" href="/en/install/prerequis">
+    <img src="/img/installer.png" alt="CentralCorp Installer">
+    <span><strong>CentralCorp Installer</strong><small>The tool that checks hosting before deploying a compatible panel release.</small></span>
+  </a>
+  <a class="ecosystem-card" href="/en/install/step1">
+    <img src="/icon-512.png" alt="CentralCorp documentation">
+    <span><strong>CentralCorp documentation</strong><small>The preparation, installation, configuration and build guides for the ecosystem.</small></span>
+  </a>
+</div>
+
+## Your Minecraft launcher, under your control
 
 CentralCorp is an ecosystem for teams that want to create and distribute a **custom Minecraft launcher** while controlling its deployment. The Electron launcher is the player-facing application. Its name, colors, game directory, memory, server and several interface elements can be configured.
 
 [Preview CentralCorp Launcher](/en/preview) or browse the [available launcher source code](https://github.com/CentralCorp/CentralCorp-Launcher).
 
-## Manage the launcher from a web panel
+## CentralCorp Panel: manage your launcher from the web
 
 CentralCorp Panel is a **Minecraft launcher management panel** built with Laravel. It provides the configuration consumed by the launcher: Minecraft and loader versions, files, optional mods, maintenance settings, access lists, the default server, UI settings and rich presence.
 
@@ -88,13 +107,13 @@ The [free Minecraft launcher panel guide](/en/free-minecraft-launcher-panel) exp
 
 The panel is self-hosted. You choose the web server, database, domain, file storage and deployment process, keeping control of the launcher configuration and delivery infrastructure.
 
-## Install CentralCorp
+## Install the CentralCorp ecosystem
 
 The [CentralCorp Installer](https://github.com/CentralCorp/Installer) checks PHP, required extensions, write permissions and URL rewriting before downloading the latest compatible panel release. The documentation then guides launcher configuration and builds.
 
 [Start with the CentralCorp prerequisites](/en/install/prerequis).
 
-## How the CentralCorp ecosystem fits together
+## From deployment to launch
 
 1. **Documentation** covers installation, configuration and builds.
 2. **Launcher** authenticates through Azuriom, synchronizes files and starts Minecraft.

@@ -5,7 +5,7 @@ description: Learn what CentralCorp provides without a software subscription, wh
 
 # Build a free Minecraft launcher with a web panel
 
-CentralCorp makes the launcher, web panel and installer repositories available without a recurring CentralCorp software subscription. This guide explains what **free Minecraft launcher** software means in this ecosystem, which infrastructure may still cost money, and which license applies to each component.
+Within the CentralCorp ecosystem, CentralCorp Launcher, CentralCorp Panel and CentralCorp Installer are available without a recurring CentralCorp software subscription. This guide explains what **free Minecraft launcher** software means in this ecosystem, which infrastructure may still cost money, and which license applies to each component.
 
 [Start the installation](/en/install/prerequis) · [Explore the Minecraft Launcher Panel](/en/minecraft-launcher-panel)
 

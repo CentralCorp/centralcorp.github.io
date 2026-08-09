@@ -5,9 +5,9 @@ description: Manage a custom Minecraft launcher with the self-hosted CentralCorp
 
 # Minecraft Launcher Panel
 
-A **Minecraft Launcher Panel** gives administrators one web interface for the settings a launcher uses to authenticate players, synchronize files and start the correct Minecraft version. CentralCorp combines a customizable Electron launcher with a self-hosted Laravel web panel.
+**CentralCorp Panel** is the web component of the CentralCorp ecosystem that administers and configures CentralCorp Launcher. As a **Minecraft Launcher Panel**, it gives administrators one interface for player authentication, file synchronization and Minecraft version settings on self-hosted infrastructure.
 
-[Install CentralCorp](/en/install/prerequis) · [Preview the launcher](/en/preview) · [View the panel source](https://github.com/CentralCorp/centralpanel-v2)
+[Install CentralCorp](/en/install/prerequis) · [Preview CentralCorp Launcher](/en/preview) · [View CentralCorp Panel source](https://github.com/CentralCorp/centralpanel-v2)
 
 ## What is a Minecraft Launcher Panel?
 
@@ -30,7 +30,7 @@ Because it is a **self-hosted Minecraft launcher** panel, you also decide where 
 
 The [CentralCorp Installer guide](/en/install/step3) covers the initial web deployment, while the [build guide](/en/install/step5) covers launcher distribution.
 
-## CentralCorp web panel features
+## CentralCorp Panel: the ecosystem’s web component
 
 Verified administration areas include general configuration, Azuriom, servers, UI settings, security, user and role access lists, ignored files, optional mods, loaders, rich presence, administrator accounts, role backgrounds and panel updates.
 

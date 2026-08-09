@@ -48,7 +48,7 @@ export default defineConfig({
     lang: 'fr',
     cleanUrls: true,
     lastUpdated: true,
-    srcExclude: ['README.md'],
+    srcExclude: ['README.md', 'SEO-CHANGES-REPORT.md'],
 
     sitemap: {
         hostname: siteUrl,
@@ -78,7 +78,7 @@ export default defineConfig({
         ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png', sizes: '48x48' }],
         ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' }],
         ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-        ['meta', { name: 'theme-color', content: '#008f91' }]
+        ['meta', { name: 'theme-color', content: '#083838' }]
     ],
 
     transformHead({ pageData }): HeadConfig[] {
@@ -87,7 +87,9 @@ export default defineConfig({
         const canonical = absoluteUrl(redirectTarget || pageData.relativePath)
         const description = pageData.description || 'CentralCorp réunit un launcher Minecraft personnalisable, un panel web auto-hébergé, un installer et leur documentation.'
         const locale = pageData.relativePath.startsWith('en/') ? 'en_US' : 'fr_FR'
-        const title = pageData.title ? `${pageData.title} | CentralCorp` : 'CentralCorp – Launcher Minecraft avec panel web'
+        const title = pageData.title
+            ? pageData.title.startsWith('CentralCorp') ? pageData.title : `${pageData.title} | CentralCorp`
+            : 'CentralCorp – Launcher Minecraft avec panel web'
         const head: HeadConfig[] = [
             ['link', { rel: 'canonical', href: canonical }],
             ['meta', { property: 'og:title', content: title }],
@@ -172,7 +174,8 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: 'Accueil', link: '/fr/' },
-                    { text: 'Minecraft Launcher Panel', link: '/fr/minecraft-launcher-panel' },
+                    { text: 'Launcher', link: '/fr/preview' },
+                    { text: 'Panel', link: '/fr/minecraft-launcher-panel' },
                     { text: 'Installation', link: '/fr/install/prerequis' },
                     { text: 'Aperçu', link: '/fr/preview' },
                     { text: 'GitHub', link: 'https://github.com/CentralCorp' }
@@ -206,7 +209,8 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: 'Home', link: '/en/' },
-                    { text: 'Minecraft Launcher Panel', link: '/en/minecraft-launcher-panel' },
+                    { text: 'Launcher', link: '/en/preview' },
+                    { text: 'Panel', link: '/en/minecraft-launcher-panel' },
                     { text: 'Installation', link: '/en/install/prerequis' },
                     { text: 'Preview', link: '/en/preview' },
                     { text: 'GitHub', link: 'https://github.com/CentralCorp' }
@@ -231,14 +235,14 @@ export default defineConfig({
     },
 
     themeConfig: {
-        logo: '/img/logo.png',
+        logo: '/img/centralcorp-logo.png',
         socialLinks: [
             { icon: 'github', link: 'https://github.com/CentralCorp' },
             { icon: 'discord', link: 'https://discord.gg/VCmNXHvf77' }
         ],
         search: { provider: 'local' },
         footer: {
-            message: 'Créé par l’équipe CentralCorp',
+            message: 'CentralCorp — Launcher, Panel & Installer',
             copyright: '© 2026 CentralCorp'
         }
     },

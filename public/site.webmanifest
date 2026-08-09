@@ -4,8 +4,8 @@
   "description": "Launcher Minecraft personnalisable et panel web auto-hébergé.",
   "start_url": "/fr/",
   "display": "standalone",
-  "background_color": "#050909",
-  "theme_color": "#008f91",
+  "background_color": "#0d1211",
+  "theme_color": "#083838",
   "icons": [
     {
       "src": "/icon-192.png",

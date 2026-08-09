@@ -10,7 +10,7 @@ This repository contains the official CentralCorp website and the French and Eng
 [![Website](https://img.shields.io/badge/website-centralcorp.github.io-0ea5e9.svg)](https://centralcorp.github.io/)
 [![VitePress](https://img.shields.io/badge/docs-VitePress-646cff.svg)](https://vitepress.dev/)
 
-**[Open the website](https://centralcorp.github.io/)** · **[Minecraft Launcher Panel](https://centralcorp.github.io/en/minecraft-launcher-panel)** · **[Installation](https://centralcorp.github.io/en/install/prerequis)** · **[Preview](https://centralcorp.github.io/en/preview)**
+**[Open the CentralCorp website](https://centralcorp.github.io/)** · **[CentralCorp Panel](https://centralcorp.github.io/en/minecraft-launcher-panel)** · **[Installation](https://centralcorp.github.io/en/install/prerequis)** · **[Launcher preview](https://centralcorp.github.io/en/preview)**
 
 ## CentralCorp at a glance
 
@@ -20,7 +20,7 @@ This repository contains the official CentralCorp website and the French and Eng
 
 ## Documentation scope
 
-- understand how the Minecraft Launcher Panel, launcher and installer work together;
+- understand how CentralCorp Launcher, CentralCorp Panel, CentralCorp Installer and the documentation work together;
 - prepare a development environment and compatible web hosting;
 - configure the launcher repository and its Azuriom or standalone panel environment;
 - install and configure the CentralCorp web panel;
