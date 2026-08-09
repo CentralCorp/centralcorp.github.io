@@ -75,8 +75,10 @@ export default defineConfig({
     },
 
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.png', type: 'image/png' }],
-        ['meta', { name: 'theme-color', content: '#3451b2' }]
+        ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png', sizes: '48x48' }],
+        ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' }],
+        ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+        ['meta', { name: 'theme-color', content: '#008f91' }]
     ],
 
     transformHead({ pageData }): HeadConfig[] {
@@ -132,7 +134,12 @@ export default defineConfig({
                     '@type': 'Organization',
                     name: 'CentralCorp',
                     url: siteUrl,
-                    logo: `${siteUrl}/img/logo.png`,
+                    logo: {
+                        '@type': 'ImageObject',
+                        url: `${siteUrl}/icon-512.png`,
+                        width: 512,
+                        height: 512
+                    },
                     sameAs: ['https://github.com/CentralCorp']
                 }
             ]
